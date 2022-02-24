@@ -31,7 +31,7 @@ Link: https://mypersonaltaskmanager.herokuapp.com/
 4) initialize empty git repository --> git init
 4.2) add everything into this directory --> git add .
 4.3) commit everything to repository --> git commit -m "Initialize App"
-5) create heroku app --> >>>heroku create *appname*
+5) create heroku app --> heroku create *appname*
 6) see where app is being pushed --> git remote -v
 7) create Procfile to tell heroku what to do with all files --> touch Procfile
 7.1) add Procfile to repository --> git add .
