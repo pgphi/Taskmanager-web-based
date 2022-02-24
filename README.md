@@ -38,14 +38,14 @@ Link: https://mypersonaltaskmanager.herokuapp.com/
 7.2) commit added file --> >>> git commit -m "Procfile Added"
 7) push everything to heroku --> >>> git push heroku master
 
-> >>> heroku info -s --> For further information i.e. web_url etc.
-> >>> heroku logs --tail --app your_app_name --> for viewing errors
+> heroku info -s --> For further information i.e. web_url etc.
+> heroku logs --tail --app your_app_name --> for viewing errors
 
 
 ### In General in regard to Deployment:
 
 ####  If changes had to be made: 
 1) *Make changes on application*
-2) >>> git add .
-3) >>> git commit -m "*description of changes*"
-4) >>> git push heroku master
+2)  git add .
+3)  git commit -m "*description of changes*"
+4)  git push heroku master
