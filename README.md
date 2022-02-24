@@ -7,24 +7,24 @@ Link: https://mypersonaltaskmanager.herokuapp.com/
 ***
 
 
-*** Personal Workflow: ***
+### Personal Workflow:
 
---> Setup & Workflow
---> Get a basic app runing
---> Templates and static content 
---> Setting up and using database (SQLite)
---> Create a basic CRUD app
---> Deploy to Heroku
+- Setup & Workflow
+- Get a basic app runing
+- Templates and static content 
+- Setting up and using database (SQLite)
+- Create a basic CRUD app
+- Deploy to Heroku
 
---> Installing virtualenvironment for easier collaboration (packages not installed globally)
+#### Installing virtualenvironment for easier collaboration (packages not installed globally)
 1) pip3 install virtualenv
-2) virtualenv env
-3) source env/bin/activate
-4) (env) *now in virtualenvironment - install everything we need*
+3) virtualenv env
+4) source env/bin/activate
+5) (env) *now in virtualenvironment - install everything we need*
 
---> Go to command palette using CTRL + Shift + P and select python: select interpreter and choose approprioate virtualenv
+> Go to command palette using CTRL + Shift + P and select python: select interpreter and choose approprioate virtualenv
 
-For Deployment:
+### For Deployment on Heroku Cloud:
 1) >>> heroku login
 2) install dependency --> >>> pip3 install gunicorn
 3) freeze requirements --> >>> pip3 freeze > requirements.txt
@@ -38,12 +38,13 @@ For Deployment:
 7.2) commit added file --> >>> git commit -m "Procfile Added"
 7) push everything to heroku --> >>> git push heroku master
 
---> >>> heroku info -s --> For further information i.e. web_url etc.
---> >>> heroku logs --tail --app your_app_name --> for viewing errors
+> >>> heroku info -s --> For further information i.e. web_url etc.
+> >>> heroku logs --tail --app your_app_name --> for viewing errors
 
 
-In General in regard to Deployment:
---> If changes had to be made: 
+### In General in regard to Deployment:
+
+####  If changes had to be made: 
 1) *Make changes on application*
 2) >>> git add .
 3) >>> git commit -m "*description of changes*"
