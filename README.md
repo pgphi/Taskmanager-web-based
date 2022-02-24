@@ -25,18 +25,18 @@ Link: https://mypersonaltaskmanager.herokuapp.com/
 > Go to command palette using CTRL + Shift + P and select python: select interpreter and choose approprioate virtualenv
 
 ### For Deployment on Heroku Cloud:
-1) >>> heroku login
-2) install dependency --> >>> pip3 install gunicorn
-3) freeze requirements --> >>> pip3 freeze > requirements.txt
-4) initialize empty git repository --> >>> git init
-4.2) add everything into this directory --> >>> git add .
-4.3) commit everything to repository --> >>> git commit -m "Initialize App"
+1) heroku login
+2) install dependency --> pip3 install gunicorn
+3) freeze requirements --> pip3 freeze (creates a requirements.txt)
+4) initialize empty git repository --> git init
+4.2) add everything into this directory --> git add .
+4.3) commit everything to repository --> git commit -m "Initialize App"
 5) create heroku app --> >>>heroku create *appname*
-6) see where app is being pushed --> >>> git remote -v
-7) create Procfile to tell heroku what to do with all files --> >>> touch Procfile
-7.1) add Procfile to repository --> >>> git add .
-7.2) commit added file --> >>> git commit -m "Procfile Added"
-7) push everything to heroku --> >>> git push heroku master
+6) see where app is being pushed --> git remote -v
+7) create Procfile to tell heroku what to do with all files --> touch Procfile
+7.1) add Procfile to repository --> git add .
+7.2) commit added file --> git commit -m "Procfile Added"
+7) push everything to heroku --> git push heroku master
 
 > heroku info -s --> For further information i.e. web_url etc.
 > heroku logs --tail --app your_app_name --> for viewing errors
