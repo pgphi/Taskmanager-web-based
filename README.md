@@ -23,7 +23,7 @@ Link: https://mypersonaltaskmanager.herokuapp.com/
     4) source env/bin/activate
     5) (env) *now in virtualenvironment - install everything we need*
 
-> Note: Go to command palette using CTRL + Shift + P and select python: select interpreter and choose approprioate virtualenv
+> Note: <br> Go to command palette using CTRL + Shift + P and select python: select interpreter and choose approprioate virtualenv
 
 ### For Deployment on Heroku Cloud:
 
@@ -40,7 +40,7 @@ Link: https://mypersonaltaskmanager.herokuapp.com/
     7.2) commit added file --> git commit -m "Procfile Added"
     7) push everything to heroku --> git push heroku master
 
-> Note: heroku info -s --> For further information i.e. web_url etc. <br> heroku logs --tail --app your_app_name --> for viewing errors
+> Note: <br> heroku info -s --> For further information i.e. web_url etc. <br> heroku logs --tail --app your_app_name --> for viewing errors
 
 
 ### In General in regard to Deployment:
